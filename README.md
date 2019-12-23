@@ -1,5 +1,7 @@
 <img src="https://i.imgur.com/sbGx1vY.png" width="60px" alt="Pinching hand emoji" />
 
+![npm bundle size](https://img.shields.io/bundlephobia/min/tiny-mark?label=size)
+
 ## tiny-mark
 
 A tiny "partial" markdown to html formatter
