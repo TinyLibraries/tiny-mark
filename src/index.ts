@@ -1,4 +1,4 @@
-const format = (str: string) => {
+const tinymark = (str: string) => {
   return str
     .replace(/(_[^*_]+)\*([^*_]+_)/g, "$1_*_$2") // Remove interlacing
     .replace(/\*([^*]+)\*/g, "<b>$1</b>") // Bold
@@ -6,4 +6,4 @@ const format = (str: string) => {
     .replace("\n", "<br />"); // New Line
 };
 
-export default format;
+export default tinymark;
