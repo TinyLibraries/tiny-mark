@@ -19,7 +19,7 @@ $ npm install tiny-mark
 ### Browser
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/tiny-mark@1.0.2/dist/browser/tinymark.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/tiny-mark@1/dist/browser/tinymark.min.js"></script>
 ```
 
 > Exported as a global function `tinymark`
