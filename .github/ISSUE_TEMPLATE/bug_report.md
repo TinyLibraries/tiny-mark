@@ -12,7 +12,7 @@ assignees: ''
 A clear and concise description of what the bug is.
 
 ```ts
-tinymark("input string");
+tinymark("input");
 // Expected => "What you expected"
 // Received => "What you received"
 ```
