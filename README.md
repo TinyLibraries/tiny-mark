@@ -4,7 +4,7 @@
 
 ## tiny-mark
 
-A tiny "partial" markdown to html formatter
+A tiny markdown to html formatter
 
 > Only a part of markdown is included. See [formatting table](#Formatting-Table) below.
 
