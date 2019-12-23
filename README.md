@@ -37,9 +37,9 @@ format("*_foo_ \n bar*");
 
 ## Formatting Table
 
-| Syntax                                        | Formatting        | Status         |
-| --------------------------------------------- | ----------------- | -------------- |
-| \*bold\*                                      | Bold (`<b>`)      | ✅ Added       |
-| \_italic\_                                    | Emphasis (`<em>`) | ✅ Added       |
-| new\nline                                     | Break (`<br />`)  | ✅ Added       |
-| \[Google\]\(https://<span>google</span>.com\) | Link              | 👀 Coming Soon |
+| Syntax                                        | Formatting        | Status                           |
+| --------------------------------------------- | ----------------- | -------------------------------- |
+| \*bold\*                                      | Bold (`<b>`)      | ✅ Added                         |
+| \_italic\_                                    | Emphasis (`<em>`) | ✅ Added                         |
+| new\nline                                     | Break (`<br />`)  | ✅ Added                         |
+| \[Google\]\(https://<span>google</span>.com\) | Link              | 👀 [Coming Soon](../../issues/1) |
