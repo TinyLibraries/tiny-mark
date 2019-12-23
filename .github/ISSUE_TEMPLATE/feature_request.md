@@ -8,10 +8,12 @@ assignees: ''
 
 ---
 
-**Describe the feature**
+## Describe the feature
+
 A clear and concise description of what the feature is.
 
-**Usage**
+## Usage
+
 ```ts
 tinymark("input");
 // => "output"

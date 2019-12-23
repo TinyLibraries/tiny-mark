@@ -8,7 +8,8 @@ assignees: ''
 
 ---
 
-**Describe the bug**
+## Describe the bug
+
 A clear and concise description of what the bug is.
 
 ```ts
@@ -17,6 +18,7 @@ tinymark("input");
 // Received => "What you received"
 ```
 
-**Additional context**
+## Additional context
+
 - Browser or Node?
 - Version?
