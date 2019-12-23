@@ -10,8 +10,16 @@ A tiny "partial" markdown to html formatter
 
 ## Install
 
+### Node
+
 ```bash
 $ npm install tiny-mark
+```
+
+### Browser
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/tiny-mark@1.0.2/dist/browser/tinymark.min.js"></script>
 ```
 
 ## Usage
