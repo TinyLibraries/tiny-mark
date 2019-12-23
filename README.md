@@ -25,23 +25,23 @@ $ npm install tiny-mark
 ## Usage
 
 ```ts
-import format from "tiny-mark";
+import tinymark from "tiny-mark";
 // or if you're using plain js
-const format = require("tiny-mark");
+const tinymark = require("tiny-mark");
 
-format("*foo*");
+tinymark("*foo*");
 // => "<b>foo</b>"
 
-format("_foo_");
+tinymark("_foo_");
 // => "<em>foo</em>"
 
-format("_*foo*_");
+tinymark("_*foo*_");
 // => "<em><b>foo</b></em>"
 
-format("*long _foo* bar_");
+tinymark("*long _foo* bar_");
 // => "<b>long <em>foo</em></b><em> bar</em>"
 
-format("*_foo_ \n bar*");
+tinymark("*_foo_ \n bar*");
 // => "<b><em>foo</em> <br /> bar</b>"
 ```
 
