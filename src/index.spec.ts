@@ -61,6 +61,10 @@ describe("format", () => {
     expect(tinymark("Hello \n world!")).toBe("Hello <br /> world!");
   });
 
+  it("multiple new lines converted into breaks", () => {
+    expect(tinymark("Hello \n\n world!")).toBe("Hello <br /><br /> world!");
+  });
+
   it("new lines with bold and italic", () => {
     expect(tinymark("*_Hello_ \n world!*")).toBe(
       "<b><em>Hello</em> <br /> world!</b>"
